@@ -54,14 +54,17 @@ h1 span {
   transform: translateY(0) scale(1.05);
 }
 .coffee-img img {
-  max-height: 300px;
-  max-width: 300px;
-  border-radius: 50%;
+  width: 300px;                  
+  height: 300px;                 
+  object-fit: cover;             
+  border-radius: 50%;            
   box-shadow: 10px 40px 40px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
+  animation: zoomIn 1.4s ease-out forwards;
 }
 .coffee-img img:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
  .image{
     display: flex;
