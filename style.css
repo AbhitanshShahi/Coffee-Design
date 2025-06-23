@@ -46,7 +46,6 @@ h1 span {
   position: relative;
   color: #2d1b0d;
   opacity: 0;
-  transform: translateY(50px);
   transition: transform 0.3s ease;
 }
 .coffee:hover {
